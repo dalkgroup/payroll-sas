@@ -90,24 +90,34 @@ st.markdown("""
         .block-container {
             padding-top: 20px;
         }
-    </style>
-""", unsafe_allow_html=True)
-/* SIDEBAR MENU ITEMS */
-st.markdown("""
+   st.markdown("""
 <style>
-[data-testid="stSidebar"] .css-1d391kg {
-    background-color: #FFFFFF;
-}
-</style>
-""", unsafe_allow_html=True)
 
-</style>
-""", unsafe_allow_html=True)
- 
+/* SIDEBAR MENU ITEMS */
+[data-testid="stSidebar"] .css-1d391kg,
 [data-testid="stSidebar"] .css-1n76uvr {
     color: #D4AF37 !important; /* Golden when active */
     font-weight: bold;
 }
+
+/* HOVER EFFECT */
+[data-testid="stSidebar"] .css-1d391kg:hover,
+[data-testid="stSidebar"] .css-1n76uvr:hover {
+    color: #0A0F1F !important; /* Blue-Black on hover */
+    background-color: #D4AF37 !important; /* Golden background */
+    border-radius: 6px;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+/* UNSELECTED MENU ITEMS */
+[data-testid="stSidebar"] .css-1n76uvr {
+    color: white !important; /* White when not active */
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 
 /* HOVER EFFECT */
 [data-testid="stSidebar"] .css-1d391kg:hover,
