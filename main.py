@@ -90,11 +90,6 @@ st.markdown("""
         .block-container {
             padding-top: 20px;
         }
-   st.markdown("""
-st.markdown("""
-<style>
-
-st.markdown("""
 <style>
 
 /* SIDEBAR MENU ITEMS */
