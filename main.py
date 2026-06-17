@@ -100,6 +100,9 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
+
+</style>
+""", unsafe_allow_html=True)
  
 [data-testid="stSidebar"] .css-1n76uvr {
     color: #D4AF37 !important; /* Golden when active */
