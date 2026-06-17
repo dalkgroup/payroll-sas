@@ -107,7 +107,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-
 /* HOVER EFFECT */
 [data-testid="stSidebar"] .css-1d391kg:hover,
 [data-testid="stSidebar"] .css-1n76uvr:hover {
