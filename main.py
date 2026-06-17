@@ -94,6 +94,9 @@ st.markdown("""
 st.markdown("""
 <style>
 
+st.markdown("""
+<style>
+
 /* SIDEBAR MENU ITEMS */
 [data-testid="stSidebar"] .css-1d391kg,
 [data-testid="stSidebar"] .css-1n76uvr {
