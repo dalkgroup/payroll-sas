@@ -90,7 +90,6 @@ st.markdown("""
         .block-container {
             padding-top: 20px;
         }
-<style>
 
 /* SIDEBAR MENU ITEMS */
 [data-testid="stSidebar"] .css-1d391kg,
