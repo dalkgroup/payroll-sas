@@ -91,14 +91,19 @@ st.markdown("""
             padding-top: 20px;
         }
    st.markdown("""
+st.markdown("""
 <style>
 
 /* SIDEBAR MENU ITEMS */
 [data-testid="stSidebar"] .css-1d391kg,
 [data-testid="stSidebar"] .css-1n76uvr {
-    color: #D4AF37 !important; /* Golden when active */
+    color: #D4AF37 !important;
     font-weight: bold;
 }
+
+</style>
+""", unsafe_allow_html=True)
+
 
 /* HOVER EFFECT */
 [data-testid="stSidebar"] .css-1d391kg:hover,
