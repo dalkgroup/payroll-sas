@@ -93,7 +93,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 /* SIDEBAR MENU ITEMS */
-st.markdown(
+st.markdown("""
 <style>
 [data-testid="stSidebar"] .css-1d391kg {
     background-color: #FFFFFF;
